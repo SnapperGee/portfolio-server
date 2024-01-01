@@ -1,0 +1,21 @@
+{
+  "name": "portfolio-server",
+  "version": "0.0.1",
+  "description": "Server side of my portfolio website.",
+  "type": "module",
+  "private": true,
+  "author": "Snap",
+  "repository": "github:SnapperGee/portfolio-server",
+  "bugs": {
+    "url": "https://github.com/SnapperGee/portfolio-server/issues"
+  },
+  "scripts": {},
+  "dependencies": {
+    "express": "^4.18.2",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "typescript": "^5.3.3"
+  }
+}
