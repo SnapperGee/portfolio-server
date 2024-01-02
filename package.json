@@ -10,6 +10,7 @@
     "url": "https://github.com/SnapperGee/portfolio-server/issues"
   },
   "scripts": {
+    "build": "tsc -p ./tsconfig.json",
     "start": "node ./build/dist/js/index.mjs"
   },
   "dependencies": {
