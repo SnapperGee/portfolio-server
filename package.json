@@ -15,6 +15,8 @@
     "dev": "NODE_ENV=development node ./build/dev/js/index.mjs",
     "prebuild-dev": "rm -rf ./build/dev",
     "prebuild-dist": "rm -rf ./build/dist",
+    "predev": "npm run build-dev",
+    "prestart": "npm run build-dist",
     "start": "node ./build/dist/js/index.mjs"
   },
   "dependencies": {
