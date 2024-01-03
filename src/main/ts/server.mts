@@ -11,7 +11,8 @@ export const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(contactRouter);
-if (process.env.NODE_ENV === "production")
+// Remove dev check once/if dev and prod runs can be separated
+if (process.env.NODE_ENV === "production" || process.env.NODE_ENV === "development")
 {
     app.use(express.static(REACT_DIR));
     app.get("*", (req, res) => res.sendFile(REACT_INDEX_HTML));
