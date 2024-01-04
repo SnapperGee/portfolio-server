@@ -3,6 +3,7 @@ import "dotenv/config";
 
 export const transporter = createTransport({
     service: "gmail",
+    secure: true,
     auth: {
         type: "OAuth2",
         user: process.env.GMAIL_USER,
