@@ -3,6 +3,6 @@ import { Router } from "express";
 
 export const contactRouter = Router();
 
-contactRouter.post("/contact", sendMessage);
+contactRouter.post("/api/contact", sendMessage);
 
 export default contactRouter;
