@@ -13,10 +13,9 @@
   "scripts": {
     "build-dev": "tsc -p ./tsconfig.dev.json",
     "build-dist": "tsc -p ./tsconfig.dist.json",
-    "dev": "NODE_ENV=development node --enable-source-maps ./build/dev/js/index.mjs",
+    "dev": "NODE_ENV=development node --enable-source-maps --loader ts-node/esm ./src/main/ts/index.mts",
     "prebuild-dev": "rm -rf ./build/dev",
     "prebuild-dist": "rm -rf ./build/dist",
-    "predev": "npm run build-dev",
     "prestart": "npm run build-dist",
     "start": "NODE_ENV=production node ./build/dist/js/index.mjs",
     "watch": "tsc -p ./tsconfig.dev.json --watch"
@@ -30,6 +29,7 @@
     "@types/express": "^4.17.21",
     "@types/nodemailer": "^6.4.14",
     "dotenv": "^16.3.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
 }
