@@ -17,8 +17,7 @@
     "prebuild-dev": "rm -rf ./build/dev",
     "prebuild-dist": "rm -rf ./build/dist",
     "prestart": "npm run build-dist",
-    "start": "NODE_ENV=production node ./build/dist/js/index.mjs",
-    "watch": "tsc -p ./tsconfig.dev.json --watch"
+    "start": "NODE_ENV=production node ./build/dist/js/index.mjs"
   },
   "dependencies": {
     "express": "^4.18.2",
