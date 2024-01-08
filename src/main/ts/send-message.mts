@@ -12,8 +12,7 @@ export const sendMessage = async (req: Request, res: Response) =>
             from: process.env.OUTLOOK_ADDRESS,
             to: process.env.GMAIL_ADDRESS,
             subject: `Portfolio inquiry from ${name}`,
-            text: message,
-            html: `<p>From: ${name}${email ? `<br>email: ${email}` : ""}${phoneNumber ? `<br>tel: ${phoneNumber}` : ""}<br><br>${message}</p>`,
+            text: `From: ${name}${email ? `\nemail: ${email}` : ""}${phoneNumber ? `\ntel: ${phoneNumber}` : ""}\n\n${message}`
         };
 
         transporter.sendMail(emailData, (error) => {
