@@ -14,7 +14,7 @@
     "build": "tsc -p ./tsconfig.dist.json",
     "dev": "NODE_ENV=development node --enable-source-maps --loader ts-node/esm ./src/main/ts/index.mts",
     "prebuild": "rm -rf ./build/dist",
-    "prestart": "npm run build-dist",
+    "prestart": "npm run build",
     "start": "NODE_ENV=production node ./build/dist/js/index.mjs"
   },
   "dependencies": {
