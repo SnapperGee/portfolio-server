@@ -43,4 +43,4 @@ Below are the provided npm scripts this package provides:
 [npm website]: https://www.npmjs.com/ "npm"
 [git shield]: https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white "Git"
 [github shield]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white "github"
-[github repo]: https://github.com/SnapperGee/portfolio-client "GitHub repo"
+[github repo]: https://github.com/SnapperGee/portfolio-server "GitHub repo"
