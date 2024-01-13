@@ -11,10 +11,10 @@ functionality of sending a message when the contact form of the
 ![Git][git shield]
 [![GitHub][github shield]][github repo]
 
-## Contact route
+## Contact Form POST Route
 
-This package contains a single POST route at `/contact` that accepts a JSON
-request and uses it to compose an email to be sent.
+This package contains a single POST route that accepts a JSON request and uses
+it to compose an email to be sent.
 
 ## Scripts
 
