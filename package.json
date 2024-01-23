@@ -15,7 +15,8 @@
     "server",
     "backend",
     "express",
-    "typescript"
+    "typescript",
+    "nodemailer"
   ],
   "scripts": {
     "build": "tsc -p ./tsconfig.dist.json",
