@@ -12,7 +12,10 @@
   },
   "keywords": [
     "portfolio",
-    "website"
+    "server",
+    "backend",
+    "express",
+    "typescript"
   ],
   "scripts": {
     "build": "tsc -p ./tsconfig.dist.json",
