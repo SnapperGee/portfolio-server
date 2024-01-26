@@ -1,3 +1,8 @@
+/**
+ * The main module entry point of the server where the express instance is started.
+ * @module index
+ */
+
 import { app } from "./server.mjs";
 import "dotenv/config";
 
