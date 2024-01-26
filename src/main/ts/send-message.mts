@@ -1,7 +1,19 @@
+/**
+ * This module contains the {@link sendMessage} controller used to send an email
+ * when the contact form is submitted on the client side.
+ * @module send-message
+ */
+
 import { transporter } from "./node-mailer-transporter.mjs";
 import { Request, Response } from "express";
 import "dotenv/config";
 
+/**
+ * The controller function used to send an email when the contact form is submitted on the client side.
+ *
+ * @param req The request object.
+ * @param res The response object.
+ */
 export const sendMessage = async (req: Request, res: Response) =>
 {
     const { name, email, phoneNumber, message } = req.body;
