@@ -1,3 +1,8 @@
+/**
+ * This module contains the config for the express server instance.
+ * @module server
+ */
+
 import { contactRouter } from "./contact-route.mjs";
 import { resolve as resolvePath } from "node:path";
 import express from "express";
