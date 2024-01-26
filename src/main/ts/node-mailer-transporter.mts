@@ -1,6 +1,16 @@
+/**
+ * This module exports a nodemailer transporter object used to send an email
+ * for when the contact form is submitted on the client side.
+ * @module node-mailer-transporter
+ */
+
 import { createTransport } from "nodemailer";
 import "dotenv/config";
 
+/**
+ * A nodemailer transporter object used to send an email for when the contact
+ * form is submitted on the client side.
+ */
 export const transporter = createTransport({
     host: "smtp-mail.outlook.com",
     port: 587,
