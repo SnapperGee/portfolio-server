@@ -1,5 +1,5 @@
 {
-    "include": ["./src/main/ts/**/*.mts"],
+    "include": ["./src/main/ts/**/*.ts"],
     "compilerOptions":
     {
         "declaration": false,

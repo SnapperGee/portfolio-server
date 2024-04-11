@@ -3,7 +3,7 @@
  * @module contact-route
  */
 
-import { sendMessage } from "./send-message.mjs";
+import { sendMessage } from "./send-message.js";
 import { Router } from "express";
 
 /**

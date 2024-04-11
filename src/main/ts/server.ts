@@ -3,7 +3,7 @@
  * @module server
  */
 
-import { contactRouter } from "./contact-route.mjs";
+import { contactRouter } from "./contact-route.js";
 import { resolve as resolvePath } from "node:path";
 import express from "express";
 

@@ -4,7 +4,7 @@
  * @module send-message
  */
 
-import { transporter } from "./node-mailer-transporter.mjs";
+import { transporter } from "./node-mailer-transporter.js";
 import { Request, Response } from "express";
 import "dotenv/config";
 
