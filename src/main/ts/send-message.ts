@@ -6,7 +6,6 @@
 
 import { transporter } from "./node-mailer-transporter.js";
 import { Request, Response } from "express";
-import "dotenv/config";
 
 /**
  * The controller function used to send an email when the contact form is submitted on the client side.

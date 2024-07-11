@@ -5,7 +5,6 @@
  */
 
 import { createTransport } from "nodemailer";
-import "dotenv/config";
 
 /**
  * A nodemailer transporter object used to send an email for when the contact
